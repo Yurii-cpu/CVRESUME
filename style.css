@@ -234,7 +234,7 @@ header {
 	left: 0;
 	width: 20%;
 	height: 100%;
-	padding: 15px;
+	padding: 25px;
 	background: #ffa455;
 	transform: translateX(-00%);
 	transition: transform 0.5s;
@@ -249,6 +249,8 @@ header {
 }
 .menu li {
 	list-style-type: none;
+    font-size: calc(0.5em + 1vw);
+    padding-right: 30px;
 }
 
 /* Меняем гамбургер иконку, когда меню открыто */
@@ -262,4 +264,7 @@ header {
 .menu-btn.active span:nth-of-type(3) {
   top: 50%;
   transform: translate(-50%, 0%) rotate(-45deg); 
+}
+.hidden {
+    display: none; // скрывает текст
 }

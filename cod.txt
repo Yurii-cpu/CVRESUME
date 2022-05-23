@@ -10,3 +10,46 @@
        
     </ul>
   </div>
+
+  вариант решения задачи с кнопкой бургер 
+   <script>
+        var e =document.querySelector('menu_icon');
+        var p =document.querySelector('menu');
+
+        e.addEventListener("click", function() {
+          p.style.height = (p.style.height =="185px") ? '0px' : '185px'
+        });
+
+       </script>
+
+
+       появление и скрітие 
+
+       const btn = document.querySelector(".menu-btn");
+const content = document.querySelector(".menu");
+
+btn.addEventListener("click", btnClick);
+
+function btnClick() {
+    console.log(content.classList);
+
+    if (content.classList.contains("hidden")) {
+        btn.textContent = "";
+    } else {
+        btn.textContent = "";
+    }
+
+    content.classList.toggle("hidden");
+}
+
+
+рабочая функция со скрытием содержимого 
+
+var e =document.querySelector('.menu-btn');
+        var p =document.querySelector('.menu');
+
+        e.addEventListener("click", function() {
+          p.style.visibility = (p.style.visibility =="visible") ? 'hidden' : 'visible'
+        });
+
+
