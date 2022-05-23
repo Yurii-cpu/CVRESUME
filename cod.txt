@@ -1,0 +1,12 @@
+
+  <div class="menu_container">
+    <ul class="menu_main">
+      <li><a href="" class="current">WORK</a></li>
+      <li><a href="">SKILLS</a></li>
+      <li><a href="">LANGUAGES</a></li>
+      <li><a href="">PROJECTS</a></li>
+      <li><a href="">EXPERIENCE</a></li>
+      <li><a href="">VOLUNTEERING</a></li>
+       
+    </ul>
+  </div>
