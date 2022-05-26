@@ -266,5 +266,5 @@ header {
   transform: translate(-50%, 0%) rotate(-45deg); 
 }
 .hidden {
-    display: none; // скрывает текст
+    display: none; /* скрывает текст*/
 }
